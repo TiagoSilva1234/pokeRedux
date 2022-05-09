@@ -3,6 +3,7 @@ import './index.scss'
 
 
 const Card = ({pokeData,min,max})=>{
+    
 const  [pokeObj,setPokeObj] = useState({});
     useEffect(()=>{
       

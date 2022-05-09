@@ -15,7 +15,7 @@ export const fetchPokemonType = (t)=>{
     return async(dispatch)=>{
         let response =[];
         let pokemons =[];
-        for(let i =1; i<899;i++){
+        for(let i =1; i<300;i++){
             response = await Axios.get(`https://pokeapi.co/api/v2/pokemon/${i}`,
             {
                 headers:{
@@ -27,7 +27,6 @@ export const fetchPokemonType = (t)=>{
             if(response.data.types[0].type.name === t)
             {
                 pokemons.push(response.data)
-              console.log(pokemons)
             }
         }
   
