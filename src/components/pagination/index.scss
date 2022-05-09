@@ -1,0 +1,11 @@
+.pagination{
+  
+    min-width: 100vh;
+  display: flex;
+  justify-content: space-between;
+ justify-self: center;
+}
+a{
+    cursor: pointer;
+    user-select: none;
+}
