@@ -4,6 +4,7 @@ import Pagination from './components/pagination'
 import {Provider, useSelector,useDispatch} from "react-redux"
 import Cards from './components/cards'
 import {fetchPokemons,fetchPokemonType} from './redux/action.js'
+
 function App() {
   const dispatch = useDispatch()
  const [currentPage,setCurrentPage] = useState(1);

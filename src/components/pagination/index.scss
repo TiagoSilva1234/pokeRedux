@@ -1,11 +1,12 @@
 .pagination{
   
-    min-width: 100vh;
+   
   display: flex;
   justify-content: space-between;
  justify-self: center;
 }
 a{
     cursor: pointer;
+    font-size: 35px;
     user-select: none;
 }
